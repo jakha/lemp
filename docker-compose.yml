@@ -58,6 +58,7 @@ services:
             - "8989:3306"
         volumes:
             - "./data/db/mysql:/var/lib/mysql"
+        # command: sh -c "grant all privileges on amarokdb.* to amarokuser@localhost ;"
 
 # composer global require "laravel/installer" && composer create-project laravel/laravel guestbook --prefer-dist &&
 #adduser -u 1000 dev && echo 1 | passwd dev --stdin &&
