@@ -1,3 +1,4 @@
 <?php
     echo phpinfo();
-    echo "bla blas";
+    echo "bla blaster";
+    echo "time Konor";
